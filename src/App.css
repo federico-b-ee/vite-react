@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+}
+
+.logo.anim:hover {
+  filter: drop-shadow(0 0 10px cyan);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+  }
+}
+
+@keyframes zoom_out {
+  from {
+    transform: scale(2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .spin .logo {
+    animation: logo-spin infinite 5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  p.zoom-in {
+    animation: zoom normal 0.5s forwards;
+  }
+
+  p.zoom-out {
+    animation: zoom_out normal 0.5s forwards;
+  }
+}
+
+button:active {
+  filter: drop-shadow(0 0 10px cyan);
+}
+
+button {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 2em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: cyan;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: inherit;
+}
