@@ -34,6 +34,11 @@ function App() {
   return (
     <div className="App">
       <div className="card">
+        <button className='reset' onClick={() => setCount(0)}>
+          Reset
+        </button>
+      </div>
+      <div className="card">
         <button className='spin' onClick={() => handleClick(count)}>
           <img src={reactLogo} className="logo anim" alt="React logo" />
         </button>
@@ -44,6 +49,9 @@ function App() {
           <p className={isActive ? 'zoom-in' : 'zoom-out'}>
             Score: {count}
           </p>
+        </div>
+        <div>
+          <a href="mailto:federico.borello@hotmial.com"> Contact: federico.borello@hotmail.com </a>
         </div>
       </div>
     </div >
