@@ -1,8 +1,9 @@
-# Vite-React Hands-on Project
+# Vite-React Hands-on Project + Docker test
 
   Clicker "like" game with score, sounds and CSS styles.
 
   Almost vanilla Vite-React template but with some modifications.
 
-## Link : https://federico-borello.github.io/vite-react/
+> ## App Link : https://federico-borello.github.io/vite-react/
+> ## Docker Hub image: https://hub.docker.com/r/fedeborello/vite-react 
   
