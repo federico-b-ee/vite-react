@@ -4,6 +4,6 @@
 
   Almost vanilla Vite-React template but with some modifications.
 
-> ## App Link : https://federico-borello.github.io/vite-react/
+> ## App Link : https://federico-b-ee.io/vite-react/
 > ## Docker Hub image: https://hub.docker.com/r/fedeborello/vite-react 
   
